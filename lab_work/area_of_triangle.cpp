@@ -10,6 +10,4 @@ int main()
     area = (0.5)*base*height;
     cout<<"\t\nThe area of the triangle is : "<<area;
     return 0;
-
-
 }
