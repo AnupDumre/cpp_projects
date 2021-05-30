@@ -8,7 +8,8 @@ struct student
     int roll;
     char address[20];
 };
-int main(){
+int main()
+{
     student s;
     cout<<"\tEnter details of the student:"<<endl;
     cout<<"\tName:";
