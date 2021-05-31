@@ -5,9 +5,9 @@ int main()
 {
     float number1,number2;
     char operation;
-    cout<<"\tEnter two number for your operation:";
+    cout<<"\tEnter two number for your operation=";
     cin>>number1>>number2;
-    cout<<"Choose an operator you want to use (+,-,*,/)";
+    cout<<"\tChoose an operator you want to use (+,-,*,/):";
     cin>>operation;
     switch (operation)
     {
@@ -24,7 +24,7 @@ int main()
         cout<<number1<<"/"<<number2<<"="<<number1/number2<<endl;
         break;
         default:
-        cout<<"you entered an wrong operation"<<endl;
+        cout<<"You entered an wrong operation."<<endl;
         break;
     }
     return(0);
