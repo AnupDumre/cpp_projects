@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	int number;
-    cout<<"\n\tEnter any number="<<number;
+    cout<<"\n\tEnter any number:"<<number;
     cin>>number;
     if(number!=0)
     {
