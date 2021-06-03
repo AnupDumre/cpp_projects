@@ -11,7 +11,7 @@ int main()
 void area_of_triangle()
 {
     float s1,s2,s3,s,area;
-    cout<<"\tEnter three side of the triangle:"<<endl;
+    cout<<"\tEnter three side of the triangle: "<<endl;
     cout<<"\tSide 1: ";
     cin>>s1;
     cout<<"\tSide 2: ";
