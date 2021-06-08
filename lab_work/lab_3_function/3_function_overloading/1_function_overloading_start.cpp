@@ -5,17 +5,17 @@ using namespace std;
 
 void add(int a, int b)
 {
-    cout <<"\t The sum of the numbers is : "<< a + b << endl;
+    cout <<"\t The sum of the numbers is: "<< a + b << endl;
 }
 
 void add(double a, int b, double c)
 {
-    cout <<"\t The sum of the numbers is : "<< a + b + c << endl;
+    cout <<"\t The sum of the numbers is: "<< a + b + c << endl;
 }
 
 void add(int a, double b)
 {
-    cout <<"\t The sum of the numbers is : "<< a + b << endl;
+    cout <<"\t The sum of the numbers is: "<< a + b << endl;
 }
 
 int main()
