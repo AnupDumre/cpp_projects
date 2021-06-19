@@ -59,9 +59,6 @@ the sum of three numbers is =12
 * Another Example of Constructor Overloading In C++
 
 ``` C++
-/*  Constructor Overloading In C++
-    https://tutorials.com
-*/
 #include<iostream>
 #include<conio.h>
 
@@ -113,9 +110,7 @@ Values :3      +7=10
 
 ## Program of Constructor Outside the Class
 ``` C++
-/*  Constructor Outside the Class
-https://tutorials.com
-*/
+
 #include <iostream>
 #include<conio.h>
 using namespace std;
@@ -156,8 +151,6 @@ A copy constructor is just like a normal Constructor with the parameters, but th
 
 ### C++ Program of Copy Constructor
 ``` C++
-/*  Of Copy Constructor Overloading In C++
-    https://Tutorials.com             */
  
 #include<iostream>
 #include<conio.h>
