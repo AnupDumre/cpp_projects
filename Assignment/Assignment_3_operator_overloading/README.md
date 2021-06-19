@@ -59,9 +59,7 @@ the sum of three numbers is =12
 
 * Another Example of Constructor Overloading In C++
 
-/*  Constructor Overloading In C++
-    https://t4tutorials.com
-*/
+/*  Constructor Overloading In C++  */
 #include<iostream>
 #include<conio.h>
 using namespace std;
@@ -109,20 +107,18 @@ Values :33      +7=40
 Values :3      +7=10
 
 ## Program of Constructor Outside the Class
-/*  Constructor Outside the Class
-https://t4tutorials.com
-*/
+/*  Constructor Outside the Class*/
 #include <iostream>
 #include<conio.h>
 using namespace std;
 // Class Declaration
  
-class T4Tutorials {
+class Tutorials {
    int a, b;
    //Access - Specifier
 public:
    //Constructor declaration
-   T4Tutorials();
+   Tutorials();
    //Member Functions for display 'a & b' Values.
  
    void Display() {
@@ -130,7 +126,7 @@ public:
    }
 };
 // Constructor definition outside Class
-T4Tutorials::T4Tutorials() {
+Tutorials::Tutorials() {
    // Assign Values In Constructor
    a = 33;
    b = 7;
@@ -139,7 +135,7 @@ T4Tutorials::T4Tutorials() {
 int main() {
  
    // Object Creation For Class
-   T4Tutorials Object;
+   Tutorials Object;
    // Constructor invoked.
    Object.Display();
    // Wait For Output Screen
@@ -150,22 +146,21 @@ int main() {
 A copy constructor is just like a normal Constructor with the parameters, but the parameter is the same class object. The Copy constructor is helpful to initialize an object using another object of the same class.
 
 ### C++ Program of Copy Constructor
-/*  Of Copy Constructor Overloading In C++
-    https://T4Tutorials.com             */
+/*  Of Copy Constructor Overloading In C++*/
  
 #include<iostream>
 #include<conio.h>
  
 using namespace std;
  
-class T4Tutorials {
+class Tutorials {
    // Member Variable Declaration
    int a, b;
 public:
  
    //Normal Constructor with Argument
  
-   T4Tutorials(int x, int y) {
+   Tutorials(int x, int y) {
       // Assign Values In Constructor
       a = x;
       b = y;
@@ -174,7 +169,7 @@ public:
  
    //Copy Constructor with Obj Argument
  
-   T4Tutorials(const T4Tutorials& obj) {
+   Tutorials(const Tutorials& obj) {
       // Assign Values In Constructor
       a = obj.a;
       b = obj.b;
@@ -188,13 +183,13 @@ public:
  
 int main() {
    //Normal Constructor Invoked
-   T4Tutorials Object(10, 20);
+   Tutorials Object(10, 20);
  
    //Copy Constructor Invoked - Method 1
-   T4Tutorials Object2(Object);
+   Tutorials Object2(Object);
  
    //Copy Constructor Invoked - Method 2
-   T4Tutorials Object3 = Object;
+   Tutorials Object3 = Object;
  
    Object.Display();
    Object2.Display();
