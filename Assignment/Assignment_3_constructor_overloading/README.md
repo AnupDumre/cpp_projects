@@ -1,12 +1,7 @@
-# *CONSTRUCTOR OVERLOADING*
-We can use the same name of the functions; whose parameter sets are different. Different constructors with the same name is  called constructor overloading.
-Overloaded constructors must have the same name and different number of arguments.
-The constructor is called based on the number and types of the arguments are passed.
-We have to pass the argument while creating objects, otherwise the constructor cannot understand which constructor will be called.
-
+# **CONSTRUCTOR OVERLOADING**
 Different constructors with the same name is  called constructor overloading.
 
-The constructor must obey one or both of the followinDifferent constructors with the same name is  called constructor overloading.
+The constructor must obey one or both of the following rules.
 
 #### 1. All constructors with the same name have a different number of parameters.
 * For example numbers_sum(int n1, int n2) and another constructor as numbers_sum(int n1, int n2, int n3) is legal.
@@ -14,7 +9,7 @@ The constructor must obey one or both of the followinDifferent constructors with
 #### 2. All constructors with the same name and have the same number of parameters but of different data types is also legal.
 * numbers_sum(int n1, int n2) and another constructor as numbers_sum(float n1, float n2).
 
-# *Examples of legal and illegal constructor overloading*
+# **Examples of legal and illegal constructor overloading**
 * numbers_sum(int n1, int n2) and numbers_sum(double n1, double n2) is legal in constructor overloading.
 
 * numbers_sum(int n1, int n2) and numbers_sum(int n1, double n2) is legal in constructor overloading.
@@ -28,23 +23,48 @@ The constructor must obey one or both of the followinDifferent constructors with
 
 * numbers_sum(int n1, int n2) and numbers_sum(int n1) is legal in constructor overloading.
 
-# *Example of constructor overloading*
+# **Example of constructor overloading**
 
 * Example of constructor overloading with a different number of parameters and constructors with the same name.
-![example.png](https://drive.google.com/file/d/1SnYbJGewTKp3kS4Fatee1G1djWeN0CJO/view?usp=sharing)
+``` C++
+#include<iostream>
+using namespace std;
 
+class numbers_sum
+{
+public:
+numbers_sum(int n1, int n2)
+{
+cout<<"sum of 2 numbers is = "<<endl<<n1+n2<<endl;
+}
+numbers_sum(int n1, int n2, int n3)
+{
+cout<<"sum of 3 numbers is = "<<endl<<n1+n2+n3<<endl;
+}
+};
+
+int main()
+{
+numbers_sum a(3,4);
+numbers_sum b(5,5,2);
+}
+```
 
 ## Output
 
-![example1_op.png](https://drive.google.com/file/d/1SWXsDo7Luckv-zAkXzD4X2hXcCgbvSlu/view?usp=sharing)
+Sum of two numbers is =7
 
-
+the sum of three numbers is =12
 
 * Another Example of Constructor Overloading In C++
 
-/*  Constructor Overloading In C++  */
+``` C++
+/*  Constructor Overloading In C++
+    https://tutorials.com
+*/
 #include<iostream>
 #include<conio.h>
+
 using namespace std;
 class Example {
     // Variable Declaration
@@ -55,7 +75,7 @@ public:
         // Assign Values In Constructor
         n1 = 3;
         n2 = 7;
-        cout << "\nIm Constructor";
+        cout << "\nI am Constructor";
     }
     //Constructor with Argument
     Example(int x, int y) {
@@ -69,6 +89,7 @@ public:
         cout<<"="<<n1+n2;
     }
 };
+
 int main() {
     Example Object(33, 7);
     Example Object2;
@@ -79,6 +100,7 @@ int main() {
     getch();
     return 0;
 }
+```
 ## Output
 
 I am Constructor
@@ -90,7 +112,10 @@ Values :33      +7=40
 Values :3      +7=10
 
 ## Program of Constructor Outside the Class
-/*  Constructor Outside the Class*/
+``` C++
+/*  Constructor Outside the Class
+https://tutorials.com
+*/
 #include <iostream>
 #include<conio.h>
 using namespace std;
@@ -125,11 +150,14 @@ int main() {
    getch();
    return 0;
 }
-## *Copy Constructor*
+```
+## **Copy Constructor**
 A copy constructor is just like a normal Constructor with the parameters, but the parameter is the same class object. The Copy constructor is helpful to initialize an object using another object of the same class.
 
 ### C++ Program of Copy Constructor
-/*  Of Copy Constructor Overloading In C++*/
+``` C++
+/*  Of Copy Constructor Overloading In C++
+    https://Tutorials.com             */
  
 #include<iostream>
 #include<conio.h>
@@ -179,7 +207,8 @@ int main() {
    Object3.Display();
    return 0;
 }
-# *Advantages of constructor overloading*
+```
+# **Advantages of constructor overloading**
 * It acts as compile-time polymorphism.
 * Objects can be constructed in different ways.
 * Helpful when we are programming the big problem because it is easy to remember the constructor name if many constructors are with the same name.
