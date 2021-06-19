@@ -31,7 +31,7 @@ class calculation
 
 int main()
 {
-    calculation C1(42,54) ; // object created , first constructor called
+    calculation C1(42,54) ; 
     calculation C2(23,43,76); 
     calculation C3(32.5f,21.65f);
     
