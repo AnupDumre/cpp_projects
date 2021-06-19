@@ -31,31 +31,14 @@ The constructor must obey one or both of the followinDifferent constructors with
 # *Example of constructor overloading*
 
 * Example of constructor overloading with a different number of parameters and constructors with the same name.
-#include<iostream>
-using namespace std;
-class numbers_sum
-{
-public:
-numbers_sum(int n1, int n2)
-{
-cout<<"sum of 2 numbers is = "<<endl<<n1+n2<<endl;
-}
-numbers_sum(int n1, int n2, int n3)
-{
-cout<<"sum of 3 numbers is = "<<endl<<n1+n2+n3<<endl;
-}
-};
-int main()
-{
-numbers_sum a(3,4);
-numbers_sum b(5,5,2);
-}
+![example](C:\Users\admin\learn\3rd sem\object oriented program C++)
+
 
 ## Output
 
-Sum of two numbers is =7
+![example1_op](C:\Users\admin\learn\3rd sem\object oriented program C++)
 
-the sum of three numbers is =12
+
 
 * Another Example of Constructor Overloading In C++
 
