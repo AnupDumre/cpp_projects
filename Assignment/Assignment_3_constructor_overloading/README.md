@@ -31,12 +31,12 @@ The constructor must obey one or both of the followinDifferent constructors with
 # *Example of constructor overloading*
 
 * Example of constructor overloading with a different number of parameters and constructors with the same name.
-![example](https://drive.google.com/file/d/1SnYbJGewTKp3kS4Fatee1G1djWeN0CJO/view)
+![example](https://drive.google.com/file/d/1SnYbJGewTKp3kS4Fatee1G1djWeN0CJO&export=download)
 
 
 ## Output
 
-![example1_op](https://drive.google.com/file/d/1SWXsDo7Luckv-zAkXzD4X2hXcCgbvSlu/view)
+![example1_op](https://drive.google.com/file/d/1SWXsDo7Luckv-zAkXzD4X2hXcCgbvSlu&export=download)
 
 
 
