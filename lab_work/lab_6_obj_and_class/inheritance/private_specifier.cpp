@@ -19,6 +19,6 @@ int main()
     circle obj;
     obj.input(7.5);
     //cout<<"radius is:"<<obj.r<<endl;
-    cout<<"area is:"<<obj.compute_area()<<endl;
+    cout<<"Area is: "<<obj.compute_area()<<endl;
     return 0;
 }
