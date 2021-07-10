@@ -26,19 +26,27 @@ cout<<"a = "<<a<<" The address of a is "<< &a<<endl;
 
 cout<<"b = "<<b<<" The address of b is "<< &b<<endl;
 
-    // We can also change the value of
-    // 'a' by using the address returned
-    // by returnValue function
-    // Since the function returns an alias
-    // of x, which is itself an alias of a,
-    // we can update the value of a
+    /* We can also change the value of
+     'a' by using the address returned
+     by returnValue function
+     Since the function returns an alias
+     of x, which is itself an alias of a,
+     we can update the value of a */
 
 returnValue(a) = 13;
 
-    // The above expression assigns the
-    // value to the returned alias as 3.
+    /* The above expression assigns the
+     value to the returned alias as 3.*/
 
 cout<< "a = "<< a <<" The address of a is "<< &a <<endl;
 
 return 0;
 }
+
+/* OUTPUT
+x = 20 The address of x is 0x22fe44
+a = 20 The address of a is 0x22fe44
+b = 20 The address of b is 0x22fe44
+x = 20 The address of x is 0x22fe44
+a = 13 The address of a is 0x22fe44
+*/
