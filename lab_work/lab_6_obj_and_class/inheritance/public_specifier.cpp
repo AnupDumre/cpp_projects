@@ -12,7 +12,7 @@ int main()
 {
     circle obj;
     obj.radius=7.5;
-    cout<<"radius is:"<<obj.radius<<endl;
-    cout<<"area is:"<<obj.compute_area()<<endl;
+    cout<<"Radius is: "<<obj.radius<<endl;
+    cout<<"Area is: "<<obj.compute_area()<<endl;
     return 0;
 }
