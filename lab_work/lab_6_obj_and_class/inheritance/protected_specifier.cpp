@@ -13,7 +13,7 @@ class child: protected parent{
     }
     void displayId()
     {
-        cout<<"id_protected is:"<<id_protected<<endl;
+        cout<<"id_protected is: "<<id_protected<<endl;
     }
 };
 int main(){
