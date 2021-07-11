@@ -28,3 +28,10 @@ int main()
         cout<<"classes["<<i<<"]: "<<classes[i].getx()<<endl;
     }
 }
+
+/* OUTPUT
+classes[0]: 0
+classes[1]: 1
+classes[2]: 2
+classes[3]: 3
+*/
