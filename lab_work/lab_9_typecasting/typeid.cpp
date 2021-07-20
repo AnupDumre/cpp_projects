@@ -3,8 +3,7 @@ using namespace std;
 
 class Animal{
     public:
-    virtual void display(){
-    }
+    //virtual void display(){}
 };
 
 class Cow : public Animal{
@@ -45,7 +44,7 @@ int main(){
 
 
 /* OUTPUT
-
+//WITH VIRTUAL FUNCTION
 Type of mark is: i
 Type of roll is: i
 Type of avg is: f
@@ -57,5 +56,19 @@ Type of dg is: 3Dog
 ********************************************************************
 Type of *anm when pointing to cw is: 3Cow
 Type of *anm when pointing to cw is: 3Dog
+
+
+//WITHOUT VIRTUAL FUNCTION
+Type of mark is: i
+Type of roll is: i
+Type of avg is: f
+Type of *str is: c
+Type of str is: Pc
+Type of anm is: P6Animal
+Type of cw is: 3Cow
+Type of dg is: 3Dog
+********************************************************************
+Type of *anm when pointing to cw is: 6Animal
+Type of *anm when pointing to cw is: 6Animal
 
 */
