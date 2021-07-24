@@ -9,11 +9,15 @@ float large(t1 n1, t2 n2){
 int main(){
     int i1;
     float f1;
-    char c1;
-
     cout<<"Enter two values int and float: "<<endl;
     cin>> i1>>f1;
     cout<< large(i1,f1)<<" is large."<<endl;
     //this call is equivalent to large<int,float>(i1,i2)
     return 0;
 }
+/*  OUTPUT
+Enter two values int and float:
+4
+4.2
+4.2 is large.
+*/
