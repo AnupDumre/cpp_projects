@@ -19,6 +19,7 @@ int main()
     func("Mt Everest",8848);//second template function is called
     return 0;   
 }
+
 /* OUTPUT
 func(T a , T b)-->	28 36
 func(T1 a , T2 b)-->	22 3.6
